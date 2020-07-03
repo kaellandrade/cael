@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="contato.svg"
+   inkscape:version="1.0 (1.0+r73+1)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 338.66668 190.5"
+   height="720"
+   width="1280"
+   inkscape:export-filename="/home/kaell/Documentos/aboutme/wireframes/desk/contato-1.png"
+   inkscape:export-xdpi="110"
+   inkscape:export-ydpi="110">
+  <defs
+     id="defs2">
+    <rect
+       id="rect1043"
+       height="20.820783"
+       width="156.11338"
+       y="89.543669"
+       x="7.2314535" />
+    <rect
+       x="14.434642"
+       y="82.962128"
+       width="144.05202"
+       height="38.626713"
+       id="rect890" />
+    <rect
+       x="14.058795"
+       y="44.049358"
+       width="113.60208"
+       height="24.862329"
+       id="rect870" />
+    <symbol
+       id="Restrooms">
+      <title
+         id="title2213">Restrooms</title>
+      <g
+         style="stroke:none"
+         id="g2225">
+        <!-- Divider -->
+        <rect
+           style="stroke-width:0.264583"
+           x="8.8635416"
+           y="3.175"
+           width="1.3229166"
+           height="12.7"
+           id="rect2215" />
+        <!-- Woman -->
+        <circle
+           style="stroke-width:0.264583"
+           cx="5.1593752"
+           cy="3.96875"
+           r="1.0583333"
+           id="circle2217" />
+        <path
+           style="stroke-width:0.264583"
+           d="m 5.0270833,11.773958 v 3.704167 a 0.52916667,0.52916667 0 0 1 -1.0583333,0 V 11.773958 H 2.6458333 L 4.1010417,6.8791667 H 3.8364583 l -0.79375,2.778125 A 0.48180625,0.48180625 0 0 1 2.1166667,9.3927083 l 0.9260416,-3.175 A 1.508125,1.2170833 0 0 1 4.4979167,5.2916667 h 1.3229166 a 1.508125,1.2170833 0 0 1 1.4552084,0.9260416 l 0.9260416,3.175 A 0.48180625,0.48180625 0 0 1 7.2760417,9.6572917 l -0.79375,-2.778125 H 6.2177083 L 7.6729167,11.773958 H 6.35 v 3.704167 a 0.52916667,0.52916667 0 0 1 -1.0583333,0 v -3.704167 z"
+           id="path2219" />
+        <!-- Man -->
+        <circle
+           style="stroke-width:0.264583"
+           cx="13.890625"
+           cy="3.96875"
+           r="1.0583333"
+           id="circle2221" />
+        <path
+           style="stroke-width:0.264583"
+           d="m 11.377083,6.6145833 v 3.4395837 a 0.463021,0.463021 0 0 0 0.926042,0 V 7.0114583 h 0.264583 v 8.4005207 a 0.5953125,0.5953125 0 0 0 1.190625,0 v -4.960937 h 0.264584 v 4.960937 a 0.5953125,0.5953125 0 0 0 1.190625,0 V 7.0114583 h 0.264583 v 3.0427087 a 0.463021,0.463021 0 0 0 0.926042,0 V 6.6145833 A 1.3229167,1.3229167 0 0 0 15.08125,5.2916667 H 12.7 a 1.3229167,1.3229167 0 0 0 -1.322917,1.3229166 z"
+           id="path2223" />
+      </g>
+    </symbol>
+    <symbol
+       id="Amphitheatre">
+      <title
+         id="title1462">Amphitheatre</title>
+      <circle
+         cx="9.5249996"
+         cy="2.2489583"
+         r="0.92604166"
+         style="stroke:none;stroke-width:0.264583"
+         id="circle1464" />
+      <path
+         d="M 11.1125,3.571875 A 1.190625,1.190625 0 0 1 12.303125,4.7625 v 2.2489583 a 0.396875,0.396875 0 0 1 -0.79375,0 V 4.8947917 h -0.79375 v 2.778125 a 5.2916667,5.2916667 0 0 1 -2.38125,0 v -2.778125 h -0.79375 v 2.1166666 a 0.396875,0.396875 0 0 1 -0.79375,0 V 4.7625 A 1.190625,1.190625 0 0 1 7.9375,3.571875 Z"
+         style="stroke:none;stroke-width:0.264583"
+         id="path1466" />
+      <path
+         d="m 13.520208,9.1016667 a 7.14375,7.14375 0 0 1 -7.9904163,0"
+         style="fill:none;stroke-width:1.45521"
+         id="path1468" />
+      <path
+         d="m 15.160625,11.509375 a 10.054167,10.054167 0 0 1 -11.27125,0"
+         style="fill:none;stroke-width:1.45521"
+         id="path1470" />
+      <path
+         d="m 16.774583,13.917083 a 12.964583,12.964583 0 0 1 -14.4991663,0"
+         style="fill:none;stroke-width:1.45521"
+         id="path1472" />
+    </symbol>
+    <rect
+       id="rect890-1"
+       height="38.626713"
+       width="144.05202"
+       y="82.962128"
+       x="14.434642" />
+    <rect
+       id="rect943"
+       height="38.626713"
+       width="144.05202"
+       y="82.962128"
+       x="14.434642" />
+    <rect
+       id="rect870-7"
+       height="24.862329"
+       width="113.60208"
+       y="44.049358"
+       x="14.058795" />
+    <rect
+       id="rect946"
+       height="24.862329"
+       width="113.60208"
+       y="44.049358"
+       x="14.058795" />
+    <rect
+       x="7.2314535"
+       y="89.543669"
+       width="156.11338"
+       height="20.820783"
+       id="rect1081" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:guide-bbox="true"
+     showguides="true"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="704"
+     inkscape:window-width="1366"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer4"
+     inkscape:document-units="px"
+     inkscape:cy="366.15708"
+     inkscape:cx="1314.6188"
+     inkscape:zoom="0.37386787"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="fundo"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.677985;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1351"
+       width="424.61569"
+       height="241.69991"
+       x="-36.475796"
+       y="-17.433332"
+       ry="7.2713232" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="contato1">
+    <g
+       transform="translate(0,0.73530152)"
+       id="g1059">
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="M 0.36805568,0.36805668 H 338.60476 V 188.66135 L 0.36805568,137.58723 Z"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.736112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect28" />
+      <g
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect870-7);mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none"
+         id="text868"
+         transform="matrix(2.0884075,0,0,2.0884075,45.150474,-39.797898)"
+         aria-label="Hey, I’m .... ">
+        <text
+           id="text962"
+           y="53.587349"
+           x="58.741512"
+           style="font-size:3.37844px;line-height:1.25;font-family:sans-serif;stroke-width:0.126691"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.126691"
+             y="53.587349"
+             x="58.741512"
+             id="tspan960"
+             sodipodi:role="line" /></text>
+        <text
+           id="text966"
+           y="53.696426"
+           x="24.695862"
+           style="font-size:17.6224px;line-height:1.25;font-family:sans-serif;stroke-width:0.236013"
+           xml:space="preserve"><tspan
+             style="font-size:17.6224px;stroke-width:0.236013"
+             y="53.696426"
+             x="24.695862"
+             id="tspan964"
+             sodipodi:role="line">Contato</tspan></text>
+      </g>
+      <g
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect890-1);fill:#4d4d4d;fill-opacity:1;stroke:none"
+         id="text888"
+         transform="translate(88.197083,5.8008137)"
+         aria-label="Lorem Ipsum is simply dummy text of the printing and typesetting industry. ">
+        <text
+           xml:space="preserve"
+           id="text1041"
+           style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1043);"
+           transform="matrix(1.1268596,0,0,1.1268596,-11.134269,-13.54154)"
+           x="74.856804"
+           y="0"><tspan
+             x="10.099805"
+             y="95.785486"><tspan
+               style="text-align:center;text-anchor:middle">Humour, or randomised words which don't </tspan></tspan><tspan
+             x="33.895095"
+             y="104.60494"><tspan
+               style="text-align:center;text-anchor:middle">look even slightly believable.</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:label="contato2"
+     id="layer1"
+     inkscape:groupmode="layer">
+    <g
+       transform="matrix(1.2397719,0,0,0.58591304,-40.6135,0.27347351)"
+       id="g1176">
+      <rect
+         style="fill:#5eaa5e;fill-opacity:1;stroke:#5eaa5e;stroke-width:1.21708;stroke-linecap:butt;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect1157"
+         width="216.53549"
+         height="89.217567"
+         x="61.116161"
+         y="0.13131006"
+         ry="3.7041669" />
+      <path
+         id="rect1159"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1.23133;stroke-linecap:butt;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 278.24301,2.4770536 V 93.299734 H 60.524801 V 2.4770536"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <text
+       id="text1145"
+       y="13.749905"
+       x="161.69565"
+       style="font-size:4.78444px;line-height:1.25;font-family:sans-serif;stroke-width:0.179416"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;stroke-width:0.179416"
+         y="13.749905"
+         x="161.69565"
+         id="tspan1143"
+         sodipodi:role="line">Status</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.57002px;line-height:1.25;font-family:sans-serif;opacity:0.592038;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.321262;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="147.00749"
+       y="25.139297"
+       id="text1149"><tspan
+         sodipodi:role="line"
+         id="tspan1147"
+         x="147.00749"
+         y="25.139297"
+         style="font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.321262;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Disponível</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.78444px;line-height:1.25;font-family:sans-serif;fill:#808080;stroke:none;stroke-width:0.179416"
+       x="141.74142"
+       y="34.51852"
+       id="text1153"><tspan
+         sodipodi:role="line"
+         id="tspan1151"
+         x="141.74142"
+         y="34.51852"
+         style="font-weight:normal;fill:#808080;stroke:none;stroke-width:0.179416">Neque porro quisquam </tspan></text>
+    <rect
+       ry="1.9403961"
+       y="62.898163"
+       x="35.015419"
+       height="16.319857"
+       width="97.153244"
+       id="rect1189"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#808080;stroke-width:1.02651;stroke-linecap:butt;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#808080;stroke-width:1.21162;stroke-linecap:butt;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect1193"
+       width="136.63499"
+       height="16.166342"
+       x="167.00581"
+       y="62.980034"
+       ry="1.9221436" />
+    <text
+       id="text1206"
+       y="73.628159"
+       x="37.513397"
+       style="font-size:7.06036px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.264763"
+       xml:space="preserve"><tspan
+         style="fill:#666666;stroke-width:0.264763"
+         y="73.628159"
+         x="37.513397"
+         id="tspan1204"
+         sodipodi:role="line">NOME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.06036px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.264763"
+       x="169.41118"
+       y="73.631607"
+       id="text1210"><tspan
+         sodipodi:role="line"
+         id="tspan1208"
+         x="169.41118"
+         y="73.631607"
+         style="fill:#666666;stroke-width:0.264763">EMAIL</tspan></text>
+    <rect
+       ry="2.921531"
+       y="99.347061"
+       x="35.70594"
+       height="56.415817"
+       width="267.35596"
+       id="rect1212"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#808080;stroke-width:3.16607;stroke-linecap:butt;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <text
+       id="text1220"
+       y="95.713699"
+       x="37.809875"
+       style="font-size:7.06036px;line-height:1.25;font-family:sans-serif;fill:#666666;stroke-width:0.264763"
+       xml:space="preserve"><tspan
+         style="fill:#666666;stroke-width:0.264763"
+         y="95.713699"
+         x="37.809875"
+         id="tspan1218"
+         sodipodi:role="line">COMO POSSO AJUDAR ?</tspan></text>
+    <rect
+       style="opacity:0.503713;fill:#008080;stroke:none;stroke-width:0.654783;stroke-linecap:round;stroke-linejoin:round"
+       id="rect894"
+       width="51.983414"
+       height="17.327805"
+       x="143.39221"
+       y="165.08165"
+       ry="8.6639023" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.77901px;line-height:1.25;font-family:sans-serif;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.244476"
+       x="153.45721"
+       y="177.39119"
+       id="text898"><tspan
+         sodipodi:role="line"
+         id="tspan896"
+         x="153.45721"
+         y="177.39119"
+         style="fill:#1a1a1a;stroke-width:0.244476">Enviar</tspan></text>
+  </g>
+</svg>

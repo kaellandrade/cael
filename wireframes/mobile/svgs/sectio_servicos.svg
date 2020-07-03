@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="110"
+   inkscape:export-xdpi="110"
+   inkscape:export-filename="/home/kaell/Documentos/aboutme/wireframes/mobile/section_servicos.png"
+   width="375"
+   height="667"
+   viewBox="0 0 99.218754 176.47708"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (1.0+r73+1)"
+   sodipodi:docname="sectio_servicos.svg">
+  <defs
+     id="defs2">
+    <rect
+       id="rect889"
+       height="35.978054"
+       width="88.116058"
+       y="118.30708"
+       x="41.350246" />
+    <rect
+       id="rect890"
+       height="38.626713"
+       width="144.05202"
+       y="82.962128"
+       x="14.434642" />
+    <rect
+       id="rect870"
+       height="24.862329"
+       width="113.60208"
+       y="44.049358"
+       x="14.058795" />
+    <symbol
+       id="Restrooms">
+      <title
+         id="title2213">Restrooms</title>
+      <g
+         id="g2225"
+         style="stroke:none">
+        <!-- Divider -->
+        <rect
+           id="rect2215"
+           height="12.7"
+           width="1.3229166"
+           y="3.175"
+           x="8.8635416"
+           style="stroke-width:0.264583" />
+        <!-- Woman -->
+        <circle
+           id="circle2217"
+           r="1.0583333"
+           cy="3.96875"
+           cx="5.1593752"
+           style="stroke-width:0.264583" />
+        <path
+           id="path2219"
+           d="m 5.0270833,11.773958 v 3.704167 a 0.52916667,0.52916667 0 0 1 -1.0583333,0 V 11.773958 H 2.6458333 L 4.1010417,6.8791667 H 3.8364583 l -0.79375,2.778125 A 0.48180625,0.48180625 0 0 1 2.1166667,9.3927083 l 0.9260416,-3.175 A 1.508125,1.2170833 0 0 1 4.4979167,5.2916667 h 1.3229166 a 1.508125,1.2170833 0 0 1 1.4552084,0.9260416 l 0.9260416,3.175 A 0.48180625,0.48180625 0 0 1 7.2760417,9.6572917 l -0.79375,-2.778125 H 6.2177083 L 7.6729167,11.773958 H 6.35 v 3.704167 a 0.52916667,0.52916667 0 0 1 -1.0583333,0 v -3.704167 z"
+           style="stroke-width:0.264583" />
+        <!-- Man -->
+        <circle
+           id="circle2221"
+           r="1.0583333"
+           cy="3.96875"
+           cx="13.890625"
+           style="stroke-width:0.264583" />
+        <path
+           id="path2223"
+           d="m 11.377083,6.6145833 v 3.4395837 a 0.463021,0.463021 0 0 0 0.926042,0 V 7.0114583 h 0.264583 v 8.4005207 a 0.5953125,0.5953125 0 0 0 1.190625,0 v -4.960937 h 0.264584 v 4.960937 a 0.5953125,0.5953125 0 0 0 1.190625,0 V 7.0114583 h 0.264583 v 3.0427087 a 0.463021,0.463021 0 0 0 0.926042,0 V 6.6145833 A 1.3229167,1.3229167 0 0 0 15.08125,5.2916667 H 12.7 a 1.3229167,1.3229167 0 0 0 -1.322917,1.3229166 z"
+           style="stroke-width:0.264583" />
+      </g>
+    </symbol>
+    <symbol
+       id="Amphitheatre">
+      <title
+         id="title1462">Amphitheatre</title>
+      <circle
+         id="circle1464"
+         style="stroke:none;stroke-width:0.264583"
+         r="0.92604166"
+         cy="2.2489583"
+         cx="9.5249996" />
+      <path
+         id="path1466"
+         style="stroke:none;stroke-width:0.264583"
+         d="M 11.1125,3.571875 A 1.190625,1.190625 0 0 1 12.303125,4.7625 v 2.2489583 a 0.396875,0.396875 0 0 1 -0.79375,0 V 4.8947917 h -0.79375 v 2.778125 a 5.2916667,5.2916667 0 0 1 -2.38125,0 v -2.778125 h -0.79375 v 2.1166666 a 0.396875,0.396875 0 0 1 -0.79375,0 V 4.7625 A 1.190625,1.190625 0 0 1 7.9375,3.571875 Z" />
+      <path
+         id="path1468"
+         style="fill:none;stroke-width:1.45521"
+         d="m 13.520208,9.1016667 a 7.14375,7.14375 0 0 1 -7.9904163,0" />
+      <path
+         id="path1470"
+         style="fill:none;stroke-width:1.45521"
+         d="m 15.160625,11.509375 a 10.054167,10.054167 0 0 1 -11.27125,0" />
+      <path
+         id="path1472"
+         style="fill:none;stroke-width:1.45521"
+         d="m 16.774583,13.917083 a 12.964583,12.964583 0 0 1 -14.4991663,0" />
+    </symbol>
+    <rect
+       x="14.434642"
+       y="82.962128"
+       width="144.05202"
+       height="38.626713"
+       id="rect890-1" />
+    <rect
+       x="14.434642"
+       y="82.962128"
+       width="144.05202"
+       height="38.626713"
+       id="rect943" />
+    <rect
+       x="14.058795"
+       y="44.049358"
+       width="113.60208"
+       height="24.862329"
+       id="rect870-7" />
+    <rect
+       x="14.058795"
+       y="44.049358"
+       width="113.60208"
+       height="24.862329"
+       id="rect946" />
+    <symbol
+       id="LogicalAnd">
+      <title
+         id="title1372">Logical And</title>
+      <desc
+         id="desc1374">Summing junction. Shows when multiple branches converge.</desc>
+      <circle
+         id="circle1376"
+         style="stroke-width:2"
+         r="20"
+         cy="75"
+         cx="75" />
+      <path
+         id="path1378"
+         style="stroke-width:2"
+         d="M 61,61 89,89" />
+      <path
+         id="path1380"
+         style="stroke-width:2"
+         d="M 61,89 89,61" />
+    </symbol>
+    <symbol
+       id="Core">
+      <title
+         id="title1310">Core</title>
+      <desc
+         id="desc1312">Core memory. (ISO)</desc>
+      <rect
+         id="rect1314"
+         style="stroke-width:2"
+         height="80"
+         width="80"
+         y="35"
+         x="35" />
+      <path
+         id="path1316"
+         style="stroke-width:2"
+         d="m 35,50 h 80" />
+      <path
+         id="path1318"
+         style="stroke-width:2"
+         d="m 50,35 v 80" />
+    </symbol>
+    <rect
+       x="41.350246"
+       y="118.30708"
+       width="88.116058"
+       height="35.978054"
+       id="rect951" />
+    <rect
+       x="41.350246"
+       y="118.30708"
+       width="88.116058"
+       height="35.978054"
+       id="rect260" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:pagecheckerboard="false"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#6a6666"
+     borderopacity="0.37254902"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.40783859"
+     inkscape:cx="86.486366"
+     inkscape:cy="439.19369"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="servicos-cards">
+    <g
+       id="g214">
+      <g
+         id="g881"
+         transform="matrix(0.66497804,0,0,0.84923295,-1.1949522,-22.578922)">
+        <rect
+           ry="4.8971629"
+           style="fill:#4d4d4d;stroke:#4d4d4d;stroke-width:0.775758;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect9805"
+           width="127.68702"
+           height="108.33846"
+           x="12.556499"
+           y="43.894566" />
+        <rect
+           y="47.069569"
+           x="12.556499"
+           height="108.33846"
+           width="127.68702"
+           id="rect877"
+           style="fill:#ffffff;stroke:#cccccc;stroke-width:0.775758;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0"
+           ry="4.8971629" />
+      </g>
+      <g
+         id="g903"
+         transform="matrix(0.77802498,0,0,0.77802498,-9.5034421,-14.818498)">
+        <g
+           transform="matrix(0.62722921,0,0,0.62722921,42.377758,25.32669)"
+           id="g931">
+          <rect
+             style="fill:none;stroke:#1a1a1a;stroke-width:0.715799;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect9842"
+             width="28.843405"
+             height="28.843405"
+             x="39.820431"
+             y="47.406464" />
+          <text
+             xml:space="preserve"
+             style="font-size:48.2575px;line-height:1.25;font-family:sans-serif;fill:none;stroke:#1a1a1a;stroke-width:1.80965"
+             x="40.057072"
+             y="75.023552"
+             id="text9846"><tspan
+               sodipodi:role="line"
+               id="tspan9844"
+               x="40.057072"
+               y="75.023552"
+               style="fill:none;stroke:#1a1a1a;stroke-width:1.80965">x</tspan></text>
+        </g>
+        <text
+           id="text935"
+           y="84.671318"
+           x="66.963783"
+           style="font-size:8.63884px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.323956"
+           xml:space="preserve"><tspan
+             style="fill:#000000;stroke:#000000;stroke-width:0.323956"
+             y="84.671318"
+             x="66.963783"
+             id="tspan933"
+             sodipodi:role="line">Title</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:6.47965px;line-height:1.25;font-family:sans-serif;fill:#cccccc;stroke:#b3b3b3;stroke-width:0.242987"
+           x="62.267323"
+           y="94.978882"
+           id="text885"><tspan
+             sodipodi:role="line"
+             id="tspan883"
+             x="62.267323"
+             y="94.978882"
+             style="fill:#cccccc;stroke:#b3b3b3;stroke-width:0.242987">Sub-title</tspan></text>
+        <text
+           transform="matrix(1.1252423,0,0,1.1252423,-20.487398,-28.813836)"
+           y="0"
+           x="43.863945"
+           style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect889);"
+           id="text887"
+           xml:space="preserve"><tspan
+             x="45.832643"
+             y="124.54916"><tspan
+               style="text-align:center;text-anchor:middle">Lorem Ipsum is simply </tspan></tspan><tspan
+             x="52.455844"
+             y="133.36861"><tspan
+               style="text-align:center;text-anchor:middle">dummy text of the </tspan></tspan><tspan
+             x="42.673489"
+             y="142.18806"><tspan
+               style="text-align:center;text-anchor:middle">printing and typesetting </tspan></tspan><tspan
+             x="70.339346"
+             y="151.0075"><tspan
+               style="text-align:center;text-anchor:middle">industry.</tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(0,104.24585)"
+       id="g258">
+      <g
+         transform="matrix(0.66497804,0,0,0.84923295,-1.1949522,-22.578922)"
+         id="g220">
+        <rect
+           y="43.894566"
+           x="12.556499"
+           height="108.33846"
+           width="127.68702"
+           id="rect216"
+           style="fill:#4d4d4d;stroke:#4d4d4d;stroke-width:0.775758;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0"
+           ry="4.8971629" />
+        <rect
+           ry="4.8971629"
+           style="fill:#ffffff;stroke:#cccccc;stroke-width:0.775758;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect218"
+           width="127.68702"
+           height="108.33846"
+           x="12.556499"
+           y="47.069569" />
+      </g>
+      <g
+         transform="matrix(0.77802498,0,0,0.77802498,-9.5034421,-14.818498)"
+         id="g256">
+        <g
+           id="g228"
+           transform="matrix(0.62722921,0,0,0.62722921,42.377758,25.32669)">
+          <rect
+             y="47.406464"
+             x="39.820431"
+             height="28.843405"
+             width="28.843405"
+             id="rect222"
+             style="fill:none;stroke:#1a1a1a;stroke-width:0.715799;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             id="text226"
+             y="75.023552"
+             x="40.057072"
+             style="font-size:48.2575px;line-height:1.25;font-family:sans-serif;fill:none;stroke:#1a1a1a;stroke-width:1.80965"
+             xml:space="preserve"><tspan
+               style="fill:none;stroke:#1a1a1a;stroke-width:1.80965"
+               y="75.023552"
+               x="40.057072"
+               id="tspan224"
+               sodipodi:role="line">x</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:8.63884px;line-height:1.25;font-family:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.323956"
+           x="66.963783"
+           y="84.671318"
+           id="text232"><tspan
+             sodipodi:role="line"
+             id="tspan230"
+             x="66.963783"
+             y="84.671318"
+             style="fill:#000000;stroke:#000000;stroke-width:0.323956">Title</tspan></text>
+        <text
+           id="text236"
+           y="94.978882"
+           x="62.267323"
+           style="font-size:6.47965px;line-height:1.25;font-family:sans-serif;fill:#cccccc;stroke:#b3b3b3;stroke-width:0.242987"
+           xml:space="preserve"><tspan
+             style="fill:#cccccc;stroke:#b3b3b3;stroke-width:0.242987"
+             y="94.978882"
+             x="62.267323"
+             id="tspan234"
+             sodipodi:role="line">Sub-title</tspan></text>
+        <text
+           xml:space="preserve"
+           id="text254"
+           style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect260);"
+           x="43.863945"
+           y="0"
+           transform="matrix(1.1252423,0,0,1.1252423,-20.487398,-28.813836)"><tspan
+             x="45.832643"
+             y="124.54916"><tspan
+               style="text-align:center;text-anchor:middle">Lorem Ipsum is simply </tspan></tspan><tspan
+             x="52.455844"
+             y="133.36861"><tspan
+               style="text-align:center;text-anchor:middle">dummy text of the </tspan></tspan><tspan
+             x="42.673489"
+             y="142.18806"><tspan
+               style="text-align:center;text-anchor:middle">printing and typesetting </tspan></tspan><tspan
+             x="70.339346"
+             y="151.0075"><tspan
+               style="text-align:center;text-anchor:middle">industry.</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="img_section"
+     style="display:inline;opacity:1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="title"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:4.84642px;line-height:1.25;font-family:sans-serif;stroke-width:0.0757256"
+       x="24.898064"
+       y="5.2213769"
+       id="text9759"><tspan
+         sodipodi:role="line"
+         id="tspan9757"
+         x="24.898064"
+         y="5.2213769"
+         style="font-size:4.84642px;stroke-width:0.0757256">&lt;MEUS SERVIÇOS/&gt;</tspan></text>
+    <path
+       id="path91"
+       d="M 7.6205123,7.8254554 H 91.598239"
+       style="opacity:0.0799576;fill:#000000;stroke:#000000;stroke-width:1.36425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
