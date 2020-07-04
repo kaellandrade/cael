@@ -1,9 +1,10 @@
 body{
     font-size: 17px;
     color: white;
+    font-family: 'Rubik', sans-serif;
 }
 /* Inicio cabecalho */
-.cabecalho,.bg-perfil{
+.cabecalho,.section-perfil{
     background-color: #191a1d;
 }
 /* Fim cabeçalho */
@@ -11,29 +12,32 @@ body{
 
 
 /* Inicio section início-perfil */
-.bg-perfil{
+.section-perfil{
     text-align: center;
     clip-path: polygon(100% 0, 100% 100%, 0 92%, 0 0);
 
 }
-.bg-perfil h1{
-    font-size: 2em;
+.section-perfil h1{
+    font-size: 2.5em;
+    color: whitesmoke;
+    /* font-weight: medium; */
 }
 .descricao{
     margin: 30px 0 30px;
     /* border: red 1px solid; */
 }
-.bg-perfil p{
-    font-size: 1em;
+.section-perfil p{
+    color: #ababab;
+    font-size: 1.1em;
 }
 
 .hr-line{
     border-top: 1px solid rgba(148, 144, 144, 0.308);
-   padding: 0;
-   margin: 0;
+    padding: 0;
+    margin: 0;
 }
 .perfil-img{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     /* border: 1px solid tomato; */
 }
 .btn-projetos{
@@ -42,11 +46,27 @@ body{
     background-color: #28a745;
     color: white;
     font-size: 1.5em;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    transition: ease-out 0.4s;
 }
 .btn-projetos:hover{
+    transition: ease-in 0.4s;
+    scale: 1.1;
     background-color: transparent;
     color: white;
 }
-
 /* Fim section inicio-perfil */
+
+
+/* Inicio section cursos */
+.cursos{
+    background-color: #28a745;
+}
+.cursos-descricao {
+    text-align: center;
+}
+
+.img-cursos{
+    /* border: 1px red solid; */
+}
+/* Fim section cursos */
