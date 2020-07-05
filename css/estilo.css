@@ -62,7 +62,7 @@ body{
     font-size: 2rem;
 }
 .cursos-bg{
-    background: #42AD59 ;
+    background: #45B85F ;
 }
 .cursos-descricao {
     /* border: 1px solid tomato; */
@@ -73,6 +73,9 @@ body{
 /* ! Fim section cursos bg */
 
 /* *Inicio lista cursos */
+b{
+    color: rgba(0, 0, 0, 0.808);
+}
 .section-lista-cursos{
     border-radius: 1em;
     display: block;
@@ -88,23 +91,47 @@ body{
     margin-bottom: 0px;
 }
 .card-img-top{
-    width: 35%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2rem;
 }
 .section-lista-cursos h2{
-    color: #115967;
+    color: #191a1d;
+    /* #919191 */
+}
+.section-lista-cursos h3{
+    font-weight: bolder;
+    color: #919191;
+}
+.section-lista-cursos li{
+    font-weight: bolder;
+    color: #949ba5;
+}
+.section-lista-cursos li::before{
+    content: "\2713";
+    color: #45b85f;
 }
 
 .section-lista-cursos p{
-    color: #006117c5;
+    color: #5e5e63;
 }
 
-.section-lista-cursos h3::before{
+.python-title::before{
+    color: #3670a0;
     content: "<";
 }
-.section-lista-cursos h3::after{
+.python-title::after{
+    color: #fed140;
+    content: "/>";
+}
+
+.game-title::before{
+    color: #ff5f5f;
+    content: "<";
+}
+.game-title::after{
+    color: #45b85f;
     content: "/>";
 }
 /* !Fim lista cursos */
