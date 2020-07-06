@@ -87,9 +87,15 @@ b{
     /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.486); */
     color: black;
 }
+.card-group div:first-child{
+    border-radius: 1em 1em 0 0;
+}
+
 .card-group > .card{
     margin-bottom: 0px;
+    border-radius: 0;
 }
+
 .card-img-top{
     width: 45%;
     margin-left: auto;
@@ -100,7 +106,8 @@ b{
     color: #191a1d;
     /* #919191 */
 }
-.section-lista-cursos h3{
+.card-title{
+    font-size: 1.6rem;
     font-weight: bolder;
     color: #919191;
 }
