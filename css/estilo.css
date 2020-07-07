@@ -81,21 +81,25 @@ b{
     display: block;
     margin-top: -5em;
     /* background-color: white; */
-    width: 85%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.486); */
     color: black;
 }
-.card-group div:first-child{
-    border-radius: 1em 1em 0 0;
+.row div:first-child{
+    border-radius: 0.6em 0.6em 0 0;
 }
 
-.card-group > .card{
-    margin-bottom: 0px;
+.row div:last-child{
+    border-radius: 0 0 0.6em 0.6em;
+}
+
+.card{
     border-radius: 0;
+    text-align: center;
+    border-bottom: 0;
 }
-
 .card-img-top{
     width: 45%;
     margin-left: auto;
@@ -141,4 +145,6 @@ b{
     color: #45b85f;
     content: "/>";
 }
+
+
 /* !Fim lista cursos */
