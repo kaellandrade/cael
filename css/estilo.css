@@ -142,8 +142,16 @@ b{
     content: "<";
 }
 .game-title::after{
-    color: #45b85f;
+    color: #fed140;
     content: "/>";
+}
+.Web-title::before{
+    content: "<";
+    color: #353a85;
+}
+.Web-title::after{
+    content: "/>";
+    color: #52bd6a;
 }
 
 
