@@ -99,6 +99,10 @@ b{
 .card-group{
     text-align: center;
 }
+.card-group ul{
+    list-style: none;
+    padding-left: none;
+}
 .card-img-top{
     border: 1px solid red;
     width: 30%;
@@ -106,9 +110,9 @@ b{
     margin-right: auto;
     margin-top: 2rem;
 }
-.section-lista-cursos h2{
+.card-title{
     color: #191a1d;
-    /* #919191 */
+    font-size: 1.5rem;
 }
 
 .section-lista-cursos li{
