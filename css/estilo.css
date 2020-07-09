@@ -15,18 +15,20 @@ body{
 .section-perfil{
     text-align: center;
     clip-path: polygon(100% 0, 100% 100%, 0 92%, 0 0);
-
+    padding-bottom: 6rem;
+}
+.perfil{
+    border: 1px solid red;
 }
 .section-perfil h1{
-    font-size: 2.5em;
+    font-size: 2.4em;
     color: whitesmoke;
     /* font-weight: medium; */
 }
-.descricao{
-    margin: 30px 0 30px;
-    /* border: red 1px solid; */
-}
 .section-perfil p{
+    line-height: 1.8rem;
+    font-weight: lighter;
+    margin-top: 2rem;
     color: #ababab;
     font-size: 1.1em;
 }
@@ -37,15 +39,18 @@ body{
     margin: 0;
 }
 .perfil-img{
-    margin-bottom: 40px;
-    /* border: 1px solid tomato; */
+    /* display: block; */
+    border-radius: 100%;
+    border: 2px solid #ffffff3d;
 }
 .btn-projetos{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid #28a745;
     border-radius: 50px;
     background-color: #28a745;
     font-size: 1.5em;
-    margin-bottom: 80px;
     transition: ease-out 0.4s;
 }
 .btn-projetos:hover{
@@ -60,22 +65,22 @@ body{
 /* * Inicio section cursos bg */
 .section-cursos{
     background: #45B85F ;
-}
-.cursos-bg{
-    border: 1px solid pink;
+    padding-bottom: 5em
 }
 .cursos-descricao {
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     text-align: center;
-    margin: 20% 0 40%;
-    
+    margin: 2rem 0 2rem 0;
+
 }
 .cursos-descricao h1{
-    text-shadow: 0px 2px 2px #191a1d9a;
+    text-shadow: 0px 1px 1px #191a1d9a;
     font-weight: bolder;
     font-size: 2rem;
 }
 .cursos-descricao p{
+    line-height: 1.8rem;
+    margin-bottom: 0;
     margin-top: 2rem;
     font-size: 1.1em;
 }
@@ -101,30 +106,43 @@ b{
 }
 .card-group ul{
     list-style: none;
-    padding-left: none;
+    padding-left: 0;
 }
 .card-img-top{
-    border: 1px solid red;
-    width: 30%;
+    /* border: 1px solid red; */
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
 }
 .card-title{
-    color: #191a1d;
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.card h2{
+    color: #191a1d;
+    font-weight: 600;
+}
+
+.card h3{
+    text-shadow: 0px 1px 1px #00000082;
+    color: #444548;
+    margin-top: 50px;
+    font-weight: 400;
 }
 
 .section-lista-cursos li{
     font-weight: bolder;
     color: #949ba5;
+    margin-top: 0.25em;
 }
 .section-lista-cursos li::before{
-    content: "\2713";
+    content: "\2714";
     color: #45b85f;
 }
 
 .section-lista-cursos p{
+    font-size: 1.1em;
     color: #5e5e63;
 }
 
@@ -168,6 +186,7 @@ b{
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+    
 }
  
 
