@@ -20,12 +20,17 @@ body{
 .perfil{
     border: 1px solid red;
 }
+
+.perfil-img{
+    width: 100vw;
+}
 .section-perfil h1{
     font-size: 2.4em;
     color: whitesmoke;
     /* font-weight: medium; */
 }
 .section-perfil p{
+    margin-bottom: 0;
     line-height: 1.8rem;
     font-weight: lighter;
     margin-top: 2rem;
@@ -39,12 +44,12 @@ body{
     margin: 0;
 }
 .perfil-img{
-    /* display: block; */
+    /* width: 50vw; */
     border-radius: 100%;
     border: 2px solid #ffffff3d;
 }
 .btn-projetos{
-    margin-bottom: 40px;
+    margin: 2em 0 2em;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #28a745;
@@ -181,12 +186,25 @@ b{
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    
+    .section-perfil h1 {
+        font-size: 3.2em;
+    }
+    .section-perfil p {
+        line-height: 2rem;
+        color: #ababab;
+        font-size: 1.3em;
+    }
  }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
-    
+   .descricao-img{
+       margin-top: auto;
+       margin-bottom: auto;
+   }
+   .btn-projetos{
+    font-size: 2em;
+}
 }
  
 
