@@ -12,6 +12,12 @@ body{
     padding: 0.5em 0 0.5em 0;
     font-size: 1.3em;
 }
+.navbar-nav li a{
+    color: #ababab;
+}
+.navbar-nav li a:hover{
+    color: #f5f5f5;
+}
 .fa-bars{
     font-size: 1.7em;
     color: whitesmoke;
@@ -261,7 +267,7 @@ b{
         /* border: 1px solid blue; */
         height: 198.35px;
     }
-    
+        
 }
  
 
@@ -270,6 +276,9 @@ b{
     .card-text{
         /* border: 1px solid pink; */
         height: 142.25px;
+    }
+    .navbar-nav li{
+        margin-right: 50px;
     }
  }
 
