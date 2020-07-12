@@ -23,7 +23,7 @@ body{
 /* Inicio section início-perfil */
 .section-perfil{
     text-align: center;
-    clip-path: polygon(100% 0, 100% 100%, 0 92%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6rem)) /* ! pesquisar sobre calc*/;
     padding-bottom: 6rem;
 }
 .perfil-img{
@@ -167,30 +167,34 @@ b{
     font-size: 1.1em;
     color: #5e5e63;
 }
+.card h3::before,
+.card h3::after{
+    opacity: 0.5;
+}
 
+.card h3::before{
+    content: '<';
+}
+.card h3::after{
+    content: '/>';
+}
 .python-title::before{
     color: #3670a0;
-    content: "<";
 }
 .python-title::after{
     color: #fed140;
-    content: "/>";
 }
 
 .game-title::before{
     color: #ff5f5f;
-    content: "<";
 }
 .game-title::after{
     color: #fed140;
-    content: "/>";
 }
 .Web-title::before{
-    content: "<";
     color: #353a85;
 }
 .Web-title::after{
-    content: "/>";
     color: #52bd6a;
 }
 
@@ -207,7 +211,7 @@ b{
         font-size: 3.2em;
     }
     .section-perfil p {
-        line-height: 2rem;
+        line-height: 2.2rem;
         color: #ababab;
         font-size: 1.3em;
     }
@@ -239,8 +243,8 @@ b{
 
     .section-perfil{
         text-align: center;
-        clip-path: polygon(100% 0, 100% 100%, 0 88%, 0 0);
         padding-bottom: 6rem;
+        height: 100vh;
     }
     /* .cursos-descricao h1 {
         font-size: 2rem;
