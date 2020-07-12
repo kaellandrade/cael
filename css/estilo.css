@@ -129,6 +129,7 @@ b{
 .card {
     border-radius: 1rem;
 }
+
 .card-img-top{
     /* border: 1px solid red; */
     width: 35%;
@@ -142,13 +143,12 @@ b{
 }
 .card h2{
     letter-spacing: 2px;
-    color: #191a1d;
+    color: #191a1d; 
     text-shadow: 0px 0px 2px #919191ab
 }
 
 .card h3{
-    text-shadow: 0px 1px 1px #00000052;
-    color: #444548;
+    color: #7f858d ;
     margin-top: 50px;
     font-weight: 400;
 }
@@ -160,6 +160,7 @@ b{
 .section-lista-cursos li::before{
     content: "\2714";
     color: #45b85f;
+    margin-right: 5px;
 }
 
 .section-lista-cursos p{
@@ -213,6 +214,14 @@ b{
     .hr-line{
         display: none;
     }
+    .card h2{
+        height: 50px;
+    }
+    
+    .card-text{
+        /* border: 1px solid tomato;  */
+        height: 286.5px;
+    }
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -233,13 +242,31 @@ b{
         clip-path: polygon(100% 0, 100% 100%, 0 88%, 0 0);
         padding-bottom: 6rem;
     }
+    /* .cursos-descricao h1 {
+        font-size: 2rem;
+    } */
+    .cursos-descricao p{
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2em;
+        line-height: 2rem;
+
+    }
+    .card-text{
+        /* border: 1px solid blue; */
+        height: 198.35px;
+    }
     
 }
  
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-   
+    .card-text{
+        /* border: 1px solid pink; */
+        height: 142.25px;
+    }
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
