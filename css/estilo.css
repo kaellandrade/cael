@@ -12,6 +12,8 @@ body{
     padding: 0.5em 0 0.5em 0;
     font-size: 1.3em;
 }
+
+
 .navbar-nav li a{
     color: #ababab;
 }
@@ -279,6 +281,32 @@ b{
     }
     .navbar-nav li{
         margin-right: 50px;
+    }
+    .nav-item{
+        position: relative;
+    }
+    .nav-link::before,
+    .nav-link:hover::before,
+    .navbar-nav li a:hover,
+    .navbar-nav li a{
+        transition: all ease 0.3s;
+    }
+
+    .nav-link::before{
+        content: '';
+        transform: translateX(50%);
+        position: absolute;
+        height: 5px;
+        width: 20%;
+        background: #28a745;
+        right: 50%;
+        opacity: 0;
+        bottom: 0;
+        border-radius: 6px;
+    }
+    .nav-link:hover::before{
+        width: 100%;
+        opacity: 1;
     }
  }
 
