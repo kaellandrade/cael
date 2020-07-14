@@ -126,18 +126,18 @@ b{
     /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.486); */
     color: black;
 }
+.section-lista-cursos .col{
+    padding: 0;
+}
 
-.card-group{
+.card{
+    border-radius: 1rem;
     text-align: center;
 }
-.card-group ul{
+.card ul{
     list-style: none;
     padding-left: 0;
 }
-.card {
-    border-radius: 1rem;
-}
-
 .card-img-top{
     /* border: 1px solid red; */
     width: 35%;
@@ -205,10 +205,24 @@ b{
 .Web-title::after{
     color: #52bd6a;
 }
-
-
 /* !Fim lista cursos */
 
+
+/* * Inicio section serviços */
+.meus-servicos{
+    color: black;
+    text-align: center;
+}
+
+
+.title-servicos{
+    /* border: 1px solid tomato; */
+}
+
+.meus-servicos .col{
+    padding: 0;
+}
+/* !Fim section serviços */
 
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
@@ -226,14 +240,6 @@ b{
     .hr-line{
         display: none;
     }
-    .card h2{
-        height: 50px;
-    }
-    
-    .card-text{
-        /* border: 1px solid tomato;  */
-        height: 286.5px;
-    }
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -247,7 +253,20 @@ b{
     font-size: 2em;
     margin: 2em 0 0;
     }
+    .section-lista-cursos .col:first-child div:first-child {
+        border-radius: 1rem 0 0 1rem;
+    }
+    .section-lista-cursos .col:last-child div:last-child {
+        border-radius: 0 1rem 1rem 0;
+    }
+    .section-lista-cursos .col:nth-child(2) .card{
+       border-radius: 0;
+       border-top: 0;
+       border-left: 0;
+       border-right: 0;
+    }
     
+
 
     .section-perfil{
         text-align: center;
@@ -265,20 +284,13 @@ b{
         line-height: 2rem;
 
     }
-    .card-text{
-        /* border: 1px solid blue; */
-        height: 198.35px;
-    }
+   
         
 }
  
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .card-text{
-        /* border: 1px solid pink; */
-        height: 142.25px;
-    }
     .navbar-nav li{
         margin-right: 50px;
     }
