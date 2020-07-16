@@ -38,9 +38,11 @@ body{
     width: 100vw;
 }
 .section-perfil h1{
-    font-size: 2.4em;
+    font-size: 2.2em;
     color: whitesmoke;
-    /* font-weight: medium; */
+}
+.efeito_cursor{
+    animation: cursor 1s step-end infinite;
 }
 .section-perfil p{
     margin-bottom: 0;
@@ -125,6 +127,19 @@ b{
 }
 .section-lista-cursos .card{
     border: 1px solid #45b85f36;
+
+}
+.card-text a{ /*! Ajustar para mobile*/
+    color: #4279a6;
+    border-bottom: 1px solid rgba(180, 0, 0, 0);
+    transition: ease-in-out 0.5s;
+}
+.card-text a:hover,
+.card-text a:active,
+.card-text a:focus{
+    text-decoration: none;
+    border-bottom-color: #4279a6;
+    transition: ease-in 0.5s;
 
 }
 
@@ -223,7 +238,20 @@ b{
     /* border: 1px solid tomato; */
 }
 
+/* inicio Animaçao cursor */
+@keyframes cursor{
+    0%{
+        border-right: .15em solid #f5f5f5;
+    }
+    50%{
+        border-right: .15em solid transparent;
+    }
+    100%{
+        border-right: .15em solid #f5f5f5;
+    }
 
+}
+/* fim animação cursor */
 /* !Fim section serviços */
 
 /*  Extra small devices (portrait phones, less than 576px) */
@@ -233,7 +261,11 @@ b{
 @media (min-width: 576px) { 
     .section-perfil h1 {
         font-size: 3.2em;
+        letter-spacing: .2rem;
     }
+    
+
+    
     .section-perfil p {
         line-height: 2.2rem;
         color: #ababab;
@@ -246,6 +278,11 @@ b{
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+
+    .section-perfil h1 {
+        font-size: 2.5em;
+    }
+
    .descricao-img{
        margin-top: auto;
        margin-bottom: auto;
@@ -320,6 +357,19 @@ b{
     .nav-link:hover::before{
         width: 100%;
         opacity: 1;
+    }
+    .efeito_cursor::before,
+    .efeito_cursor::after{
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.527);
+        color: #ababab41;
+    }
+    .efeito_cursor::before{
+        content: '>>> "';
+    }
+    .efeito_cursor::after{
+        padding-right: 0.18em;
+        content: '"';
+        color: #ababab41;
     }
  }
 
