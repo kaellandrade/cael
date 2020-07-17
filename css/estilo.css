@@ -165,13 +165,14 @@ b{
 .section-lista-cursos .card h2{
     letter-spacing: 2px;
     color: #191a1d; 
-    text-shadow: 0px 0px 2px #919191ab
+    font-weight: bolder;
 }
 
-.section-lista-cursos .card h3{
-    color: #7f858d ;
-    margin-top: 50px;
-    font-weight: 400;
+.sub-title{
+    font-size: 1.3em;
+    color: #191a1dd5 ;
+    margin-top: 1rem;
+    font-weight: 300;
 }
 
 .section-lista-cursos li{
@@ -190,7 +191,7 @@ b{
 }
 .section-lista-cursos .card h3::before,
 .section-lista-cursos .card h3::after{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .section-lista-cursos .card h3::before{
@@ -227,16 +228,23 @@ b{
     text-align: center;
 }
 
+
 .section-meus-servicos .card{
     border: 0;
     border-top: 0.5rem solid #6fd085;
     background-color: #f6f6f6   ;
 }
+.section-meus-servicos p{
+    color: #5e5e5e;
+}
+.section-meus-servicos .sub-title{
+    
+}
 
-
-.title-servicos{
+.title-servicos {
     /* border: 1px solid tomato; */
 }
+/* !Fim section serviços */
 
 /* inicio Animaçao cursor */
 @keyframes cursor{
@@ -252,7 +260,6 @@ b{
 
 }
 /* fim animação cursor */
-/* !Fim section serviços */
 
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
@@ -364,7 +371,7 @@ b{
         text-shadow: 2px 2px  #0000008e;
     }
     .efeito_cursor::before{
-        content: '>>> "';
+        content: '>> "';
     }
     .efeito_cursor::after{
         padding-right: 0.18em;
