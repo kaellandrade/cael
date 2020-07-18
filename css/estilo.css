@@ -81,9 +81,9 @@ body{
     transition: ease-in 0.3s;
 }
 .btn-projetos:hover,
-.btn-projetos:active,
+.btn-projetos:focus,
 .btn-contato:hover,
-.btn-contato:active{
+.btn-contato:focus{
     transition: ease-in 0.4s;
     transform: scale(1.1);
     background-color: transparent;
@@ -260,13 +260,15 @@ b{
     background-color: #191a1d;
 }
 .col-contato{
-    text-align: center;
+    text-align: center;   
+    margin-bottom: 1.3rem;
+    /* border: 1px solid gold; */
 }
 .col-contato h2,
 .col-contato h3{
     font-weight: bolder;
-    font-size: 1em;
-    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
 }
 .col-contato h2{
     /* border: 1px solid tomato; */
@@ -274,8 +276,8 @@ b{
 }
 
 .col-contato h3{
-    /* border: 1px solid gold; */
     color: #ababab;
+    /* margin-bottom: 1.3rem; */
 }
 .btn-contato{
     margin: 0;
@@ -284,7 +286,42 @@ b{
 }
 
 .col-social ul{ 
+    /* border:1px solid pink ; */
+    padding-left: 0;
     list-style: none;
+}
+.col-social li{ 
+    margin-bottom: 1rem;
+}
+.col-social li a{
+    display: block;
+    padding: 5px 0px 5px ;
+    text-decoration: none;
+    color: #ababab;
+    transition: ease-in-out 0.5s;
+}
+
+.col-social li a:hover,
+.col-social li a:active{
+    transition: ease-in 0.5s;
+    color: #28a745;
+
+}
+
+.rodape-direitos{
+    padding: 2rem 0 2rem;
+    background-color: #101114;
+}
+.fa-bootstrap{
+    font-size: 1.5em;
+}
+.made-with i{ /*TODO: Fazer o B pulsar*/
+    color: #8651d3;
+    vertical-align: middle;
+}
+.made-with a{
+    text-decoration: none;
+    color: #fcfcfc49;
 }
 
 /* !Fim footer */
