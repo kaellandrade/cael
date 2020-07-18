@@ -67,7 +67,8 @@ body{
     box-shadow: 0px 0px 5px 10px  #121316;
     /* border: 4px double #ffffff; */
 }
-.btn-projetos{
+.btn-projetos,
+.btn-contato{
     cursor: pointer;
     color: #ffffff;
     margin: 2em 0 2em;
@@ -80,7 +81,9 @@ body{
     transition: ease-in 0.3s;
 }
 .btn-projetos:hover,
-.btn-projetos:active{
+.btn-projetos:active,
+.btn-contato:hover,
+.btn-contato:active{
     transition: ease-in 0.4s;
     transform: scale(1.1);
     background-color: transparent;
@@ -250,6 +253,42 @@ b{
 }
 /* !Fim section serviços */
 
+/* * Início footer */
+.rodape{
+    clip-path: polygon(0 0, 100%  6rem, 100% 100%, 0 100%);
+    padding-top: 6rem;
+    background-color: #191a1d;
+}
+.col-contato{
+    text-align: center;
+}
+.col-contato h2,
+.col-contato h3{
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: 1rem;
+}
+.col-contato h2{
+    /* border: 1px solid tomato; */
+    color: whitesmoke;
+}
+
+.col-contato h3{
+    /* border: 1px solid gold; */
+    color: #ababab;
+}
+.btn-contato{
+    margin: 0;
+    margin-top: 1rem;
+
+}
+
+.col-social ul{ 
+    list-style: none;
+}
+
+/* !Fim footer */
+
 /* inicio Animaçao cursor */
 @keyframes cursor{
     0%{
@@ -298,7 +337,8 @@ b{
        margin-top: auto;
        margin-bottom: auto;
    }
-   .btn-projetos{
+   .btn-projetos,
+   .btn-contato{
     cursor: pointer;
     font-size: 2em;
     margin: 2em 0 0;
