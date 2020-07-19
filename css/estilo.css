@@ -259,29 +259,35 @@ b{
     padding-top: 6rem;
     background-color: #191a1d;
 }
+.row-contato{
+    margin: 3rem 0 3rem;
+    /* border: 1px solid blue; */
+}
+
 .col-contato{
     text-align: center;   
-    margin-bottom: 1.3rem;
     /* border: 1px solid gold; */
+    margin-bottom: 3rem;
+   
 }
 .col-contato h2,
 .col-contato h3{
     font-weight: bolder;
     font-size: 1.3rem;
-    margin-top: 1.3rem;
 }
 .col-contato h2{
-    /* border: 1px solid tomato; */
     color: whitesmoke;
+    margin-bottom: 1.3rem;
 }
 
 .col-contato h3{
     color: #ababab;
-    /* margin-bottom: 1.3rem; */
+}
+.titulos{
+    padding-bottom: 2em;
 }
 .btn-contato{
-    margin: 0;
-    margin-top: 1rem;
+    margin:0 !important;
 
 }
 
@@ -289,13 +295,11 @@ b{
     /* border:1px solid pink ; */
     padding-left: 0;
     list-style: none;
-}
-.col-social li{ 
-    margin-bottom: 1rem;
+    margin: 0;
 }
 .col-social li a{
     display: block;
-    padding: 5px 0px 5px ;
+    padding: 10px 0px 10px ;
     text-decoration: none;
     color: #ababab;
     transition: ease-in-out 0.5s;
@@ -315,9 +319,13 @@ b{
 .fa-bootstrap{
     font-size: 1.5em;
 }
-.made-with i{ /*TODO: Fazer o B pulsar*/
-    color: #8651d3;
+.made-with{
+    text-shadow: -2px 2px 3px #000000;
+}
+.made-with i{   
+    color: #8e59db;
     vertical-align: middle;
+
 }
 .made-with a{
     text-decoration: none;
@@ -341,6 +349,9 @@ b{
 }
 /* fim animação cursor */
 
+/* !Fim Animação Bootstrap */
+
+
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
@@ -349,6 +360,10 @@ b{
     .section-perfil h1 {
         font-size: 3.2em;
         letter-spacing: .2rem;
+    }
+    .col-contato h2,
+    .col-contato h3{
+    font-size: 2rem;
     }
     
 
@@ -410,6 +425,16 @@ b{
         line-height: 2rem;
 
     }
+    .col-social,
+    .col-contato{
+        margin-bottom: auto;
+        margin-top: auto;
+
+    }
+    .col-social li a{
+        display: inline-block;
+   }
+    
    
         
 }
@@ -461,6 +486,11 @@ b{
     .card-img-top{
         width: 25%;
         
+    }
+    .col-contato h2,
+    .col-contato h3{
+    font-size: 2.7rem;
+    font-weight: normal;
     }
  }
 
