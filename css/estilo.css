@@ -4,7 +4,9 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 /* Inicio cabecalho */
-.cabecalho,.section-perfil{
+.cabecalho,
+.section-perfil,
+.section-contato{
     background-color: #191a1d;
 }
 .nav-item a{
@@ -29,7 +31,8 @@ body{
 
 
 /* Inicio section início-perfil */
-.section-perfil{
+.section-perfil,
+.section-contato{
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6rem)) /* ! pesquisar sobre calc*/;
     padding-bottom: 6rem;
@@ -334,6 +337,28 @@ b{
 
 /* !Fim footer */
 
+/* ------ *Inicio Página contato */
+.section-formulario .title{
+    color: rgba(54, 54, 54, 0.932);
+}
+.section-formulario .jumbotron{
+    position: relative;
+    border-top: .3rem solid #28a746d3;
+    background-color: #f6f6f6;
+}
+.section-formulario .status{
+    margin: .5em 0 .5em;
+    color: #28a746d3;
+}
+.section-formulario .badge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.section-formulario .lead{
+    color: #191a1d9e;
+}
+/* !Fim página contato */
 /* inicio Animaçao cursor */
 @keyframes cursor{
     0%{
@@ -349,7 +374,7 @@ b{
 }
 /* fim animação cursor */
 
-/* !Fim Animação Bootstrap */
+
 
 
 /*  Extra small devices (portrait phones, less than 576px) */
