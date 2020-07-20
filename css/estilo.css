@@ -338,6 +338,9 @@ b{
 /* !Fim footer */
 
 /* ------ *Inicio Página contato */
+.section-formulario{
+    color: black;
+}
 .section-formulario .title{
     color: rgba(54, 54, 54, 0.932);
 }
