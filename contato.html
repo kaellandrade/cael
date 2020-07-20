@@ -19,7 +19,7 @@
         <!-- Inicio cabeçalho -->
         <header class="cabecalho">
             <nav class="navbar navbar-expand-lg">
-                <a class="nav-brand" href="#">
+                <a class="nav-brand" href="index.html">
                     <svg
                         xmlns:dc="http://purl.org/dc/elements/1.1/"
                         xmlns:cc="http://creativecommons.org/ns#"
@@ -154,7 +154,7 @@
                             <a href="#" class="nav-item nav-link">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-item nav-link">Contato</a>    
+                            <a href="#" class="nav-item nav-link active">Contato</a>    
                         </li>
                         
                     </ul>
@@ -169,13 +169,13 @@
             <div class="container">
                 <hr class = "hr-line">
                 <div class="row pt-5">
-                    <div class="col-12">
+                    <div class="col-12 col-md-10 offset-md-1">
                         <h1>
                             Contato
                         </h1>
-                        <p>
-                            Descreva seu projeto no formulário abaixo. 
-                            Depois é só aguardar, pois entrarei em contato.
+                        <p class="contato-p">
+                            Conte-me um pouco sobre seu projeto no formulário abaixo.
+                            Entrarei em contato o mais rápido possível.
                         </p>
                 </div>
             </div>
@@ -184,40 +184,41 @@
         <section class="section-formulario">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 col-md-10 offset-md-1">
                         <div class="jumbotron text-center">
                             <span class="badge badge-pill badge-success">BETA</span>
                             <h3 class="display-6 title">Status</h3>
-                            <h1 class="display-5 status">Disponível</h1>
+                            <h3 class="display-5 status">Disponível</h3>
                             <p class="lead">Atualmente estou assumindo novos projetos.</p>
                         </div>
                     </div>
 
-                    <div class="col-12">
-                        <form action="">
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <form class="form-contato" action="">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="nome">Nome</label>
-                                                <input class="form-control" type="text" name="nome" id="nome">
+                                                <input class="form-control" type="text" name="nome" id="nome" placeholder="Gandalf O Cinzento">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="e-mail">Email</label>
-                                                <input class="form-control" type="email" name="e-mail" id="e-mail">
+                                                <input class="form-control" type="email" name="e-mail" id="e-mail" placeholder="gandalf@gmail.com">
                                             </div>
                                         </div>
                                     </div>
                                         
                                     <div class="form-group">
                                         <label for="texto">Como Posso ajudar ?</label>
-                                        <textarea class="form-control" name="texto" id="texto" cols="30" rows="10"></textarea>     
+                                        <textarea class="form-control" name="texto" id="texto" cols="30" rows="10" placeholder=""></textarea>     
                                     </div>
                                 </div>
                             </div>
+                            <button class="btn btn-submit" type="submit">Enviar</button>
                         </form>
                     </div>
                 </div>

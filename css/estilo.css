@@ -16,6 +16,7 @@ body{
 }
 
 
+
 .navbar-nav li a{
     color: #ababab;
 }
@@ -47,7 +48,8 @@ body{
 .efeito_cursor{
     animation: cursor 1s step-end infinite;
 }
-.section-perfil p{
+.section-perfil p,
+.contato-p{
     margin-bottom: 0;
     line-height: 1.8rem;
     font-weight: lighter;
@@ -71,7 +73,8 @@ body{
     /* border: 4px double #ffffff; */
 }
 .btn-projetos,
-.btn-contato{
+.btn-contato,
+.btn-submit{
     cursor: pointer;
     color: #ffffff;
     margin: 2em 0 2em;
@@ -86,7 +89,9 @@ body{
 .btn-projetos:hover,
 .btn-projetos:focus,
 .btn-contato:hover,
-.btn-contato:focus{
+.btn-contato:focus,
+.btn-submit:hover,
+.btn-submit:focus{
     transition: ease-in 0.4s;
     transform: scale(1.1);
     background-color: transparent;
@@ -323,7 +328,7 @@ b{
     font-size: 1.5em;
 }
 .made-with{
-    text-shadow: -2px 2px 3px #000000;
+    text-shadow: -2px 2px 3px #000000c2;
 }
 .made-with i{   
     color: #8e59db;
@@ -332,7 +337,7 @@ b{
 }
 .made-with a{
     text-decoration: none;
-    color: #fcfcfc49;
+    color: #fcfcfc38;
 }
 
 /* !Fim footer */
@@ -340,6 +345,21 @@ b{
 /* ------ *Inicio Página contato */
 .section-formulario{
     color: black;
+}
+.form-contato .btn-submit{
+    display: block;
+    /* margin-top: 2rem; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-contato{
+    font-size: 1.2em;
+    color: rgba(54, 54, 54, 0.616);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form-control::placeholder{
+    opacity: 0.4;
 }
 .section-formulario .title{
     color: rgba(54, 54, 54, 0.932);
@@ -360,6 +380,10 @@ b{
 }
 .section-formulario .lead{
     color: #191a1d9e;
+}
+.btn-submit:hover,
+.btn-submit:focus{
+    color: #28a745;
 }
 /* !Fim página contato */
 /* inicio Animaçao cursor */
@@ -385,7 +409,8 @@ b{
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    .section-perfil h1 {
+    .section-perfil h1,
+    .section-contato h1 {
         font-size: 3.2em;
         letter-spacing: .2rem;
     }
@@ -396,7 +421,8 @@ b{
     
 
     
-    .section-perfil p {
+    .section-perfil p,
+    .contato-p {
         line-height: 2.2rem;
         color: #ababab;
         font-size: 1.3em;
@@ -409,7 +435,8 @@ b{
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
 
-    .section-perfil h1 {
+    .section-perfil h1
+    .section-contato h1 {
         font-size: 2.5em;
     }
 
@@ -478,10 +505,11 @@ b{
     }
     .nav-link::before,
     .nav-link:hover::before,
-    .navbar-nav li a:hover,
-    .navbar-nav li a{
+    .nav-link:hover,
+    .nav-link{
         transition: all ease 0.3s;
     }
+    
 
     .nav-link::before{
         content: '';
@@ -520,6 +548,7 @@ b{
     font-size: 2.7rem;
     font-weight: normal;
     }
+    
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
