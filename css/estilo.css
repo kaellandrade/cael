@@ -366,6 +366,9 @@ b{
     font-weight: 700;
     text-transform: uppercase;
 }
+.form-control{
+    font-size: 1.2em;
+}
 .form-control::placeholder{
     opacity: 0.4;
 }
@@ -433,7 +436,6 @@ b{
     .section-perfil p,
     .contato-p {
         line-height: 2.2rem;
-        color: #ababab;
         font-size: 1.3em;
     }
     .hr-line{
@@ -444,9 +446,11 @@ b{
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
 
-    .section-perfil h1
-    .section-contato h1 {
+    .section-perfil h1 {
         font-size: 2.5em;
+    }
+    .section-contato h1{
+        font-size: 3.5em;
     }
 
    .descricao-img{
@@ -498,6 +502,10 @@ b{
     .col-social li a{
         display: inline-block;
    }
+   .section-formulario .status{
+    font-size: 2.5em;
+    color: #28a746d3;
+}
     
    
         
