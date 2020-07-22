@@ -1,12 +1,13 @@
 body{
-    font-size: 17px;
+    font-size: 16px;
     color: white;
     font-family: 'Rubik', sans-serif;
 }
 /* Inicio cabecalho */
 .cabecalho,
 .section-perfil,
-.section-contato{
+.section-contato,
+.section-sobre{
     background-color: #191a1d;
 }
 .nav-item a{
@@ -34,7 +35,8 @@ body{
 
 /* Inicio section início-perfil */
 .section-perfil,
-.section-contato{
+.section-contato,
+.section-sobre{
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6rem)) /* ! pesquisar sobre calc*/;
     padding-bottom: 6rem;
@@ -50,7 +52,8 @@ body{
     animation: cursor 1s step-end infinite;
 }
 .section-perfil p,
-.contato-p{
+.contato-p,
+.sobre-p{
     margin-bottom: 0;
     line-height: 1.8rem;
     font-weight: lighter;
@@ -113,8 +116,9 @@ body{
 
 }
 .cursos-descricao h1,
-.title-servicos{
-    text-shadow: 2px 2px  #191a1d2c;
+.title-servicos,
+.sobre-mim .title{
+    text-shadow: 2px 2px  #191a1d1e;
     font-weight: bolder;
     font-size: 2rem;
     
@@ -256,7 +260,9 @@ b{
 .section-meus-servicos p{
     color: #5e5e5e;
 }
-.title-servicos{
+.title-servicos,
+.sobre-mim .title{
+    color: rgba(0, 0, 0, 0.671);
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
@@ -396,8 +402,29 @@ b{
 .btn-submit:focus{
     color: #28a745;
 }
-
 /* !Fim página contato */
+
+/* *Inicio sobre mim */
+.sobre-mim .title{
+    
+}
+.sobre-mim .descricao{
+    font-weight: 300;
+    line-height: 1.9rem;
+    font-size: 1em;
+    text-indent: 1rem;
+    text-align: justify;
+    text-justify: distribute;
+    color: #5e5e5e;
+}
+.sobre-mim .descricao::first-letter{
+    text-shadow: -1px 1.5px  2px rgba(0, 0, 0, 0.185);
+    color: rgb(46, 46, 46);
+    font-weight: 400;
+    font-size: 2em;
+}
+
+/* !Fim sobre mim */
 /* inicio Animaçao cursor */
 @keyframes cursor{
     0%{
@@ -434,7 +461,8 @@ b{
 
     
     .section-perfil p,
-    .contato-p {
+    .contato-p,
+    .sobre-p {
         line-height: 2.2rem;
         font-size: 1.3em;
     }
@@ -449,7 +477,8 @@ b{
     .section-perfil h1 {
         font-size: 2.5em;
     }
-    .section-contato h1{
+    .section-contato h1,
+    .sobre-title{
         font-size: 3.5em;
     }
 
