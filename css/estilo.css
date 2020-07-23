@@ -91,7 +91,6 @@ body{
     transition: ease-in 0.3s;
 }
 .btn-projetos:hover,
-.btn-projetos:focus,
 .btn-contato:hover,
 .btn-contato:focus,
 .btn-submit:hover,
@@ -418,11 +417,14 @@ b{
     color: #28a745;
 }
 .sobre-mim .descricao p::first-letter{
-    color: #6fd085;
-    font-size: 3em;
+    color: #0000008e;
+    font-size: 300%;
+    margin-top: 0;
+    vertical-align: middle;
 }
 
 .sobre-mim .quadro{
+    margin-top: 2rem;
     border: 5px solid transparent;
     border-radius: 0.5rem;
     text-align: center;
@@ -435,7 +437,7 @@ b{
 .sobre-mim .fig-bottom{
     font-size: 1.3em;
     margin: .5em 0 .5em;
-    color: #191a1d7c;
+    color: #191a1dc4;
 }
 .sobre-mim .fig-top{
     color: #191a1d7c;
