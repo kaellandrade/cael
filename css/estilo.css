@@ -118,7 +118,6 @@ body{
 .cursos-descricao h1,
 .title-servicos,
 .sobre-mim .title{
-    text-shadow: 2px 2px  #191a1d1e;
     font-weight: bolder;
     font-size: 2rem;
     
@@ -409,19 +408,28 @@ b{
     
 }
 .sobre-mim .descricao{
-    font-weight: 300;
     line-height: 1.9rem;
     font-size: 1em;
-    text-indent: 1rem;
     text-align: justify;
     text-justify: distribute;
     color: #5e5e5e;
 }
-.sobre-mim .descricao::first-letter{
-    text-shadow: -1px 1.5px  2px rgba(0, 0, 0, 0.185);
-    color: rgb(46, 46, 46);
-    font-weight: 400;
-    font-size: 2em;
+.sobre-mim .descricao strong{
+    color: #28a745;
+}
+.sobre-mim .descricao p::first-letter{
+    color: #6fd085;
+    font-size: 3em;
+}
+
+.sobre-mim .quadro{
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #4063c775;
+}
+.sobre-mim img{
+    /* border: 1px solid red; */
+    border-radius: 0.5rem;  
 }
 
 /* !Fim sobre mim */
