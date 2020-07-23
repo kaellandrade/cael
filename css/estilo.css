@@ -423,13 +423,23 @@ b{
 }
 
 .sobre-mim .quadro{
+    border: 5px solid transparent;
     border-radius: 0.5rem;
     text-align: center;
-    background-color: #4063c775;
+    background-color: #f6f6f6;
+    box-shadow: 0 0 2px #5757578c;
 }
 .sobre-mim img{
-    /* border: 1px solid red; */
     border-radius: 0.5rem;  
+}
+.sobre-mim .fig-bottom{
+    font-size: 1.3em;
+    margin: .5em 0 .5em;
+    color: #191a1d7c;
+}
+.sobre-mim .fig-top{
+    color: #191a1d7c;
+
 }
 
 /* !Fim sobre mim */
