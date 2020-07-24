@@ -576,7 +576,7 @@ b{
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px){ 
     .navbar-nav li{
-        margin-right: 50px;
+        margin-left: 50px;
     }
     .nav-item{
         position: relative;
