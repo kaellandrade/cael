@@ -57,7 +57,7 @@ body{
     margin-bottom: 0;
     line-height: 1.8rem;
     font-weight: lighter;
-    margin-top: 2rem;
+    margin: 2rem 0 2rem;
     color: #ababab;
     font-size: 1.1em;
 }
@@ -403,9 +403,7 @@ b{
 /* !Fim página contato */
 
 /* *Inicio sobre mim */
-.sobre-mim .title{
-    
-}
+
 .sobre-mim .descricao{
     line-height: 1.9rem;
     font-size: 1em;
@@ -418,7 +416,7 @@ b{
 }
 .sobre-mim .descricao p::first-letter{
     color: #0000008e;
-    font-size: 300%;
+    font-size: 200%;
     margin-top: 0;
     vertical-align: middle;
 }
@@ -484,12 +482,13 @@ b{
     .contato-p,
     .sobre-p {
         line-height: 2.2rem;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     .hr-line{
         display: none;
     }
  }
+ 
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
@@ -499,7 +498,13 @@ b{
     }
     .section-contato h1,
     .sobre-title{
+        margin-top: 2rem;
         font-size: 3.5em;
+    }
+    .sobre-p,
+    .contato-p{
+        font-size: 1.6em;
+        margin: 2.5rem 0 2.5rem;
     }
 
    .descricao-img{
@@ -550,11 +555,18 @@ b{
     }
     .col-social li a{
         display: inline-block;
-   }
+    }
    .section-formulario .status{
     font-size: 2.5em;
     color: #28a746d3;
-}
+    }
+    .sobre-mim .descricao{
+        line-height: 2.5rem;
+        font-size: 1.4em;
+    }
+    .sobre-mim .descricao p{
+        margin-bottom: 2.3rem;
+    }
     
    
         
@@ -562,7 +574,7 @@ b{
  
 
  /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px){ 
     .navbar-nav li{
         margin-right: 50px;
     }
@@ -619,7 +631,7 @@ b{
     font-weight: normal;
     }
     
- }
+}
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
