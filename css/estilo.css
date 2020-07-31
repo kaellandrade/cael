@@ -38,7 +38,7 @@ body{
 .section-contato,
 .section-sobre{
     text-align: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6rem)) /* ! pesquisar sobre calc*/;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6rem));
     padding-bottom: 6rem;
 }
 .perfil-img{
@@ -405,20 +405,19 @@ b{
 /* *Inicio sobre mim */
 
 .sobre-mim .descricao{
+    text-indent: 4px;
     line-height: 1.9rem;
     font-size: 1em;
-    text-align: justify;
-    text-justify: distribute;
     color: #5e5e5e;
 }
 .sobre-mim .descricao strong{
     color: #28a745;
 }
 .sobre-mim .descricao p::first-letter{
-    color: #0000008e;
+    font-weight: bolder;
+    color: #575757;
     font-size: 200%;
     margin-top: 0;
-    vertical-align: middle;
 }
 
 .sobre-mim .quadro{
