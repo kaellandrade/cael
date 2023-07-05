@@ -1,34 +1,39 @@
-body{
+body {
     font-size: 16px;
     color: white;
     font-family: 'Rubik', sans-serif;
 }
+
 /* Inicio cabecalho */
 .cabecalho,
 .section-perfil,
 .section-contato,
-.section-sobre{
+.section-sobre {
     background-color: #191a1d;
 }
-.nav-item a{
-    color: whitesmoke ;
+
+.nav-item a {
+    color: whitesmoke;
     padding: 0.5em 0 0.5em 0;
     font-size: 1.3em;
 }
 
 
 
-.navbar-nav li a{
+.navbar-nav li a {
     color: #ababab;
 }
+
 .navbar-nav .nav-link:hover,
-.navbar-nav .active{
+.navbar-nav .active {
     color: #f5f5f5;
 }
-.fa-bars{
+
+.fa-bars {
     font-size: 1.7em;
     color: whitesmoke;
 }
+
 /* Fim cabeçalho */
 
 
@@ -36,25 +41,29 @@ body{
 /* Inicio section início-perfil */
 .section-perfil,
 .section-contato,
-.section-sobre{
+.section-sobre {
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6rem));
     padding-bottom: 6rem;
 }
-.perfil-img{
+
+.perfil-img {
     width: 100vw;
 }
-.section-perfil h1{
+
+.section-perfil h1 {
     font-size: 2.2em;
     color: whitesmoke;
 }
-.efeito_cursor{
+
+.efeito_cursor {
     animation: cursor 1s infinite;
     padding-right: 3px;
 }
+
 .section-perfil p,
 .contato-p,
-.sobre-p{
+.sobre-p {
     margin-bottom: 0;
     line-height: 1.8rem;
     font-weight: lighter;
@@ -63,7 +72,7 @@ body{
     font-size: 1.1em;
 }
 
-.hr-line{
+.hr-line {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 
@@ -71,15 +80,17 @@ body{
     padding: 0;
     margin: 0;
 }
-.perfil-img{
+
+.perfil-img {
     /* width: 50vw; */
     border-radius: 100%;
-    box-shadow: 0px 0px 5px 10px  #121316;
+    box-shadow: 0px 0px 5px 10px #121316;
     /* border: 4px double #ffffff; */
 }
+
 .btn-projetos,
 .btn-contato,
-.btn-submit{
+.btn-submit {
     cursor: pointer;
     color: #ffffff;
     margin: 2em 0 2em;
@@ -91,50 +102,57 @@ body{
     font-size: 1.5em;
     transition: ease-in 0.3s;
 }
+
 .btn-projetos:hover,
 .btn-contato:hover,
 .btn-contato:focus,
 .btn-submit:hover,
-.btn-submit:focus{
+.btn-submit:focus {
     transition: ease-in 0.4s;
     transform: scale(1.1);
     background-color: transparent;
     color: white;
 }
+
 /* Fim section inicio-perfil */
 
 
 /* * Inicio section cursos bg */
-.section-cursos{
-    background: #45B85F ;
+.section-cursos {
+    background: #45B85F;
     padding-bottom: 5em
 }
+
 .cursos-descricao {
     /* border: 1px solid red; */
     text-align: center;
     margin: 2rem 0 2rem 0;
 
 }
+
 .cursos-descricao h1,
 .title-servicos,
-.sobre-mim .title{
+.sobre-mim .title {
     font-weight: bolder;
     font-size: 2rem;
-    
+
 }
-.cursos-descricao p{
+
+.cursos-descricao p {
     line-height: 1.8rem;
     margin-bottom: 0;
     margin-top: 2rem;
     font-size: 1.1em;
 }
+
 /* ! Fim section cursos bg */
 
 /* *Inicio lista cursos */
-b{
+b {
     color: rgba(0, 0, 0, 0.808);
 }
-.section-lista-cursos{
+
+.section-lista-cursos {
     border-radius: 1em;
     display: block;
     margin-top: -5em;
@@ -142,214 +160,244 @@ b{
     margin-right: auto;
     color: black;
 }
-.section-lista-cursos .card{
+
+.section-lista-cursos .card {
     border: 1px solid #45b85f36;
 
 }
-.card-text{
+
+.card-text {
     /* border: 1px solid red; */
     margin-top: 2rem;
 }
 
-.card-text a{ /*! Ajustar para mobile*/
+.card-text a {
+    /*! Ajustar para mobile*/
     color: #4279a6;
     border-bottom: 1px solid rgba(180, 0, 0, 0);
     transition: ease-in-out 0.5s;
 }
+
 .card-text a:hover,
 .card-text a:active,
-.card-text a:focus{
+.card-text a:focus {
     text-decoration: none;
     border-bottom-color: #4279a6;
     transition: ease-in 0.5s;
 
 }
 
-.card{
+.card {
     border-radius: 0.5rem;
     text-align: center;
 }
-.card ul{
+
+.card ul {
     list-style: none;
     padding-left: 0;
 }
-.card-img-top{
+
+.card-img-top {
     /* border: 1px solid red; */
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
 }
-.section-lista-cursos .card-title{
+
+.section-lista-cursos .card-title {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.section-lista-cursos .card h2{
+
+.section-lista-cursos .card h2 {
     letter-spacing: 2px;
-    color: #191a1d; 
+    color: #191a1d;
     font-weight: bolder;
 }
 
-.sub-title{
+.sub-title {
     font-size: 1.3em;
-    color: #191a1d9e ;
+    color: #191a1d9e;
     margin-top: 2rem;
     font-weight: 300;
 }
 
-.section-lista-cursos li{
+.section-lista-cursos li {
     vertical-align: middle;
     color: #949ba5;
     margin-top: 0.25em;
 }
-.section-lista-cursos li::before{
+
+.section-lista-cursos li::before {
     content: "\2714";
     color: #45b860c0;
     margin-right: 5px;
 }
 
-.section-lista-cursos p{
+.section-lista-cursos p {
     font-size: 1.1em;
     color: #5e5e63;
 }
+
 .section-lista-cursos .card h3::before,
-.section-lista-cursos .card h3::after{
+.section-lista-cursos .card h3::after {
     opacity: 0.5;
 }
 
-.section-lista-cursos .card h3::before{
+.section-lista-cursos .card h3::before {
     content: '<';
 }
-.section-lista-cursos .card h3::after{
+
+.section-lista-cursos .card h3::after {
     content: '/>';
 }
-.python-title::before{
+
+.python-title::before {
     color: #3670a0;
 }
-.python-title::after{
+
+.python-title::after {
     color: #fed140;
 }
 
-.game-title::before{
+.game-title::before {
     color: #ff5f5f;
 }
-.game-title::after{
+
+.game-title::after {
     color: #fed140;
 }
-.Web-title::before{
+
+.Web-title::before {
     color: #353a85;
 }
-.Web-title::after{
+
+.Web-title::after {
     color: #52bd6a;
 }
+
 /* !Fim lista cursos */
 
 
 /* * Inicio section serviços */
-.section-meus-servicos{
+.section-meus-cursos {
     color: black;
     text-align: center;
 }
 
 
-.section-meus-servicos .card{
+.section-meus-cursos .card {
     border: 0;
     border-top: 0.5rem solid #6fd085;
-    background-color: #f6f6f6   ;
+    background-color: #f6f6f6;
 }
-.section-meus-servicos p{
+
+.section-meus-cursos p {
     color: #5e5e5e;
 }
+
 .title-servicos,
-.sobre-mim .title{
+.sobre-mim .title {
     color: rgba(0, 0, 0, 0.671);
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
+
 /* !Fim section serviços */
 
 /* * Início footer */
-.rodape{
-    clip-path: polygon(0 0, 100%  6rem, 100% 100%, 0 100%);
+.rodape {
+    clip-path: polygon(0 0, 100% 6rem, 100% 100%, 0 100%);
     padding-top: 6rem;
     background-color: #191a1d;
 }
-.row-contato{
+
+.row-contato {
     margin: 3rem 0 3rem;
     /* border: 1px solid blue; */
 }
 
-.col-contato{
-    text-align: center;   
+.col-contato {
+    text-align: center;
     /* border: 1px solid gold; */
     margin-bottom: 3rem;
-   
+
 }
+
 .col-contato h2,
-.col-contato h3{
+.col-contato h3 {
     font-weight: bolder;
     font-size: 1.3rem;
 }
-.col-contato h2{
+
+.col-contato h2 {
     color: whitesmoke;
     margin-bottom: 1.3rem;
 }
 
-.col-contato h3{
+.col-contato h3 {
     color: #ababab;
 }
-.titulos{
+
+.titulos {
     padding-bottom: 2em;
 }
-.btn-contato{
-    margin:0 !important;
+
+.btn-contato {
+    margin: 0 !important;
 
 }
 
-.col-social ul{ 
+.col-social ul {
     text-transform: uppercase;
     padding-left: 0;
     list-style: none;
     margin: 0;
 }
-.col-social li a{
+
+.col-social li a {
     display: block;
-    padding: 10px 0px 10px ;
+    padding: 10px 0px 10px;
     text-decoration: none;
     color: #ababab;
     transition: ease-in-out 0.5s;
 }
 
 .col-social li a:hover,
-.col-social li a:active{
+.col-social li a:active {
     transition: ease-in 0.5s;
     color: #28a745;
 
 }
 
-.rodape-direitos{
+.rodape-direitos {
     padding: 2rem 0 2rem;
     background-color: #101114;
 }
-.fa-bootstrap{
+
+.fa-bootstrap {
     font-size: 1.2em;
 }
-.title-boot{
+
+.title-boot {
     font-weight: bolder;
     font-family: 'Rubik', sans-serif;
     display: inline;
 }
-.made-with{
+
+.made-with {
     text-shadow: -2px 2px 3px #000000c2;
 }
 
-.made-with i{   
+.made-with i {
     color: #8c57d9;
     vertical-align: middle;
 
 }
+
 .made-with a,
-.title-boot{
+.title-boot {
     text-decoration: none;
     color: #fcfcfc67;
 }
@@ -357,72 +405,85 @@ b{
 /* !Fim footer */
 
 /* ------ *Inicio Página contato */
-.section-formulario{
+.section-formulario {
     color: black;
 }
-.form-contato .btn-submit{
+
+.form-contato .btn-submit {
     display: block;
     /* margin-top: 2rem; */
     margin-left: auto;
     margin-right: auto;
 }
-.form-contato{
+
+.form-contato {
     font-size: 1.2em;
     color: rgba(54, 54, 54, 0.616);
     font-weight: 700;
     text-transform: uppercase;
 }
-.form-control{
+
+.form-control {
     font-size: 1.2em;
 }
-.form-control::placeholder{
+
+.form-control::placeholder {
     opacity: 0.4;
 }
-.section-formulario .title{
+
+.section-formulario .title {
     color: rgba(54, 54, 54, 0.932);
 }
-.section-formulario .jumbotron{
+
+.section-formulario .jumbotron {
     position: relative;
     border-top: .3rem solid #28a746d3;
     background-color: #f6f6f6;
 }
-.section-formulario .status{
+
+.section-formulario .status {
     margin: .5em 0 .5em;
     color: #28a746d3;
 }
-.section-formulario .badge{
+
+.section-formulario .badge {
     position: absolute;
     top: 5px;
     right: 5px;
 }
-.section-formulario .lead{
+
+.section-formulario .lead {
     color: #191a1d9e;
 }
+
 .btn-submit:hover,
-.btn-submit:focus{
+.btn-submit:focus {
     color: #28a745;
 }
+
 /* !Fim página contato */
 
 /* *Inicio sobre mim */
 
-.sobre-mim .descricao{
+.sobre-mim .descricao {
     text-indent: 4px;
     line-height: 1.9rem;
     font-size: 1em;
     color: #5e5e5e;
 }
-.sobre-mim .descricao strong{
+
+.sobre-mim .descricao strong {
     color: #28a745;
 }
-.sobre-mim .descricao p::first-letter{
+
+.sobre-mim .descricao p::first-letter {
     font-weight: bolder;
     color: #575757;
     font-size: 200%;
     margin-top: 0;
 }
 
-.sobre-mim .quadro{
+.sobre-mim .quadro {
     margin-top: 2rem;
     border: 5px solid transparent;
     border-radius: 0.5rem;
@@ -430,32 +491,39 @@ b{
     background-color: #f6f6f6;
     box-shadow: 0 0 2px #5757578c;
 }
-.sobre-mim img{
-    border-radius: 0.5rem;  
+
+.sobre-mim img {
+    border-radius: 0.5rem;
 }
-.sobre-mim .fig-bottom{
+
+.sobre-mim .fig-bottom {
     font-size: 1.3em;
     margin: .5em 0 .5em;
     color: #191a1dc4;
 }
-.sobre-mim .fig-top{
+
+.sobre-mim .fig-top {
     color: #191a1d7c;
 
 }
+
 /* !Fim sobre mim */
 /* inicio Animaçao cursor */
-@keyframes cursor{
-    0%{
+@keyframes cursor {
+    0% {
         border-right: .2rem solid #45b860c0;
     }
-    50%{
+
+    50% {
         border-right: .2rem solid transparent;
     }
-    100%{
+
+    100% {
         border-right: .2rem solid #45b860c0;
     }
 
 }
+
 /* fim animação cursor */
 
 
@@ -464,82 +532,92 @@ b{
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
     .section-perfil h1,
     .section-contato h1 {
         font-size: 3.2em;
         letter-spacing: .2rem;
     }
-    .col-contato h2,
-    .col-contato h3{
-    font-size: 2rem;
-    }
-    
 
-    
+    .col-contato h2,
+    .col-contato h3 {
+        font-size: 2rem;
+    }
+
+
+
     .section-perfil p,
     .contato-p,
     .sobre-p {
         line-height: 2.2rem;
         font-size: 1.5em;
     }
-    .hr-line{
+
+    .hr-line {
         display: none;
     }
- }
- 
+}
 
- /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 
     .section-perfil h1 {
         font-size: 2.5em;
     }
+
     .section-contato h1,
-    .sobre-title{
+    .sobre-title {
         margin-top: 2rem;
         font-size: 3.5em;
     }
+
     .sobre-p,
-    .contato-p{
+    .contato-p {
         font-size: 1.6em;
         margin: 2.5rem 0 2.5rem;
     }
 
-   .descricao-img{
-       margin-top: auto;
-       margin-bottom: auto;
-   }
-   .btn-projetos,
-   .btn-contato{
-    cursor: pointer;
-    font-size: 2em;
-    margin: 2em 0 0;
+    .descricao-img {
+        margin-top: auto;
+        margin-bottom: auto;
     }
+
+    .btn-projetos,
+    .btn-contato {
+        cursor: pointer;
+        font-size: 2em;
+        margin: 2em 0 0;
+    }
+
     .section-lista-cursos .col:first-child div:first-child {
         border-radius: 0.5rem 0 0 0.5rem;
     }
+
     .section-lista-cursos .col:last-child div:last-child {
         border-radius: 0 0.5rem 0.5rem 0;
     }
-    .section-lista-cursos .col:nth-child(2) .card{
-       border-radius: 0;
-       border-top: 0;
-       border-left: 0;
-       border-right: 0;
+
+    .section-lista-cursos .col:nth-child(2) .card {
+        border-radius: 0;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
     }
-    
 
 
-    .section-perfil{
+
+    .section-perfil {
         text-align: center;
         padding-bottom: 6rem;
     }
+
     /* .cursos-descricao h1 {
         font-size: 2rem;
     } */
-    .cursos-descricao p{
+    .cursos-descricao p {
         width: 60vw;
         margin-left: auto;
         margin-right: auto;
@@ -547,49 +625,56 @@ b{
         line-height: 2rem;
 
     }
+
     .col-social,
-    .col-contato{
+    .col-contato {
         margin-bottom: auto;
         margin-top: auto;
 
     }
-    .col-social li a{
+
+    .col-social li a {
         display: inline-block;
     }
-   .section-formulario .status{
-    font-size: 2.5em;
-    color: #28a746d3;
+
+    .section-formulario .status {
+        font-size: 2.5em;
+        color: #28a746d3;
     }
-    .sobre-mim .descricao{
+
+    .sobre-mim .descricao {
         line-height: 2.5rem;
         font-size: 1.4em;
     }
-    .sobre-mim .descricao p{
+
+    .sobre-mim .descricao p {
         margin-bottom: 2.3rem;
     }
-    
-   
-        
-}
- 
 
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px){ 
-    .navbar-nav li{
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-nav li {
         margin-left: 50px;
     }
-    .nav-item{
+
+    .nav-item {
         position: relative;
     }
+
     .nav-link::before,
     .nav-link:hover::before,
     .nav-link:hover,
-    .nav-link{
+    .nav-link {
         transition: all ease 0.3s;
     }
-    
 
-    .nav-link::before{
+
+    .nav-link::before {
         content: '';
         transform: translateX(50%);
         position: absolute;
@@ -601,39 +686,44 @@ b{
         bottom: 0;
         border-radius: 6px;
     }
-    .nav-link:hover::before{
+
+    .nav-link:hover::before {
         width: 100%;
         opacity: 1;
     }
-    .navbar-nav .active::before{
+
+    .navbar-nav .active::before {
         width: 100%;
         opacity: 1;
     }
+
     .efeito_cursor::before,
-    .efeito_cursor::after{
+    .efeito_cursor::after {
         color: #ababab;
-        text-shadow: 2px 2px  #0000008e;
+        text-shadow: 2px 2px #0000008e;
     }
-    .efeito_cursor::before{
+
+    .efeito_cursor::before {
         content: '>> "';
     }
-    .efeito_cursor::after{
+
+    .efeito_cursor::after {
         padding-right: 0.18em;
         content: '"';
     }
-    .card-img-top{
-        width: 25%;
-        
+
+    .card-img-top {
+        width: 50%;
+
     }
+
     .col-contato h2,
-    .col-contato h3{
-    font-size: 2.7rem;
-    font-weight: normal;
+    .col-contato h3 {
+        font-size: 2.7rem;
+        font-weight: normal;
     }
-    
+
 }
 
- /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    
-}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
