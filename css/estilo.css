@@ -161,6 +161,32 @@ b {
     color: black;
 }
 
+.card-cursor {
+    cursor: pointer;
+}
+
+.card-img-top {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+.card-img-top:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
 .section-lista-cursos .card {
     border: 1px solid #45b85f36;
 
@@ -705,11 +731,14 @@ b {
 
     .efeito_cursor::before {
         content: '>> "';
+        color: #28a745ff;
     }
 
     .efeito_cursor::after {
         padding-right: 0.18em;
         content: '"';
+        color: #28a745ff;
+
     }
 
     .card-img-top {
