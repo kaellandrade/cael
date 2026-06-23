@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Base cylinder -->
+  <ellipse cx="50" cy="75" rx="35" ry="10" fill="#2563eb" opacity="0.85"/>
+  <rect x="15" y="50" width="70" height="25" fill="#3b82f6"/>
+  <ellipse cx="50" cy="50" rx="35" ry="10" fill="#60a5fa"/>
+
+  <!-- Middle cylinder -->
+  <ellipse cx="50" cy="50" rx="35" ry="10" fill="#2563eb" opacity="0.85"/>
+  <rect x="15" y="25" width="70" height="25" fill="#3b82f6"/>
+  <ellipse cx="50" cy="25" rx="35" ry="10" fill="#60a5fa"/>
+
+  <!-- Top cylinder -->
+  <ellipse cx="50" cy="25" rx="35" ry="10" fill="#2563eb" opacity="0.85"/>
+  <rect x="15" y="10" width="70" height="15" fill="#3b82f6"/>
+  <ellipse cx="50" cy="10" rx="35" ry="10" fill="#93c5fd"/>
+
+  <!-- Horizontal lines detail -->
+  <line x1="20" y1="35" x2="80" y2="35" stroke="#bfdbfe" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="20" y1="60" x2="80" y2="60" stroke="#bfdbfe" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+</svg>
